@@ -6,7 +6,7 @@
 
 ### 無障礙通路與出入口
 
-| 技能名稱 | 類型 | skill.md (AI) | domain.md (人類) |
+| 技能名稱 | 類型 | SKILL.md (AI) | domain.md (人類) |
 |---------|---|-----|-----|
 | [accessible-door-clear-width](無障礙出入口門淨寬實務陷阱/accessible-door-clear-width/) | C 類台灣法規 | ✅ | ✅ |
 

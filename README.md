@@ -22,6 +22,7 @@
 
 > 感謝所有貢獻者！此區塊記錄近期已合併的 PR。
 
+- **2026-06-19** 📐 新增容積移轉分類：容積移轉權益與政策排擠技能
 - **2026-06-18** 🏛️ 新增文化資產保存法分類與修復工程程序等技能
 - **2026-06-17** 🏗️ 新增混凝土結構設計分類（5 個 C 類技能）([#9](https://github.com/h30190/HJPLUS_Taiwan_Architect_KB/pull/9))
 - **2026-06-17** ♿ 新增無障礙出入口門淨寬實務陷阱技能 ([#12](https://github.com/h30190/HJPLUS_Taiwan_Architect_KB/pull/12))
@@ -91,25 +92,22 @@
 
 ### 4️⃣ [建築法規](建築法規/) Building Codes & Regulations
 
-**9 個技能模組（9C）**
+**8 個技能模組（8C）**
 
 - **消防安全/**
-  - [taiwan-fire-safety](建築法規/消防安全/taiwan-fire-safety/) (C 類台灣法規)
   - [smoke-exhaust-review](建築法規/消防安全/排煙窗法規檢討/smoke-exhaust-review/) (C 類台灣法規)
+  - [assembly-hall-fire-safety](建築法規/消防安全/集會堂消防安全規範/assembly-hall-fire-safety/) (C 類台灣法規) — 禮堂／集會堂收容人員計算∕觀眾席通道∕甲類消防設備
 - **無障礙設計/**
-  - [taiwan-accessibility](建築法規/無障礙設計/taiwan-accessibility/) (C 類台灣法規)
   - [accessible-door-clear-width](建築法規/無障礙設計/無障礙出入口門淨寬實務陷阱/accessible-door-clear-width/) (C 類台灣法規)
-- **施工文件與驗收/**
-  - [taiwan-construction-docs](建築法規/施工文件與驗收/taiwan-construction-docs/) (C 類台灣法規)
-- **容積率與建蔽率計算/**
-  - [taiwan-programming](建築法規/容積率與建蔽率計算/taiwan-programming/) (C 類台灣法規)
 - **文化資產保存法/**
   - [cultural-heritage-items](建築法規/文化資產保存法/文化資產項目/cultural-heritage-items/) (C 類台灣法規)
   - [adaptive-reuse-response-plan](建築法規/文化資產保存法/修復再利用因應計畫/adaptive-reuse-response-plan/) (C 類台灣法規)
   - [heritage-restoration-phases](建築法規/文化資產保存法/修復工程程序/heritage-restoration-phases/) (C 類台灣法規)
   - [heritage-incentives-compensation](建築法規/文化資產保存法/文化資產獎勵與補償/heritage-incentives-compensation/) (C 類台灣法規)
+- **容積移轉/**
+  - [tdr-rights-policy-conflict](建築法規/容積移轉/容積移轉權益與政策排擠/tdr-rights-policy-conflict/) (C 類台灣法規) — 容積移轉權益∕接受基地規定∕增額容積重疊∕政策排擠分析
 
-**9 個待建立目錄**
+**10 個待建立目錄**
 
 - 建築技術規則/
 - 建築法/
@@ -119,6 +117,8 @@
 - 節能與環境/
 - 住宅與公寓大廈管理/
 - 其他特定領域/
+- 施工文件與驗收/
+- 容積率與建蔽率計算/
 
 ---
 
@@ -206,7 +206,7 @@
 |-----|-|-|-|
 | **A 類通用技能** | 5 個 | 國際通用標準，無需台灣適配 | AI + 人類直接使用 |
 | **B 類適配技能** | 8 個 | 國際規範→台灣適配，保留 TODO 注記 | 國際→台灣雙向支援 |
-| **C 類台灣法規技能** | 17 個 | 完全台灣法規，MCP 工具對接 | 台灣法規本位，官方對接 |
+| **C 類台灣法規技能** | 15 個 | 完全台灣法規，MCP 工具對接 | 台灣法規本位，官方對接 |
 
 ---
 
