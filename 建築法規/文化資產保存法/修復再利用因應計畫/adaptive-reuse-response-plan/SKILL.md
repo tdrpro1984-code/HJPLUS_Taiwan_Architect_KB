@@ -37,9 +37,30 @@ This skill provides guidelines on the legal exemptions available for cultural he
 - Exemptions from standard fire equipment rules.
 - Requires a specialized fire safety design tailored to historic buildings (e.g., water mist systems instead of standard sprinklers, early warning systems).
 
+## Case Example: Automatic Sprinkler Alternatives
+
+**Source**: Regulations for Processing Building Management, Land Use, and Fire Safety for Restoration/Adaptive Reuse of Monuments, Historic Buildings, Commemorative Buildings, and Groups of Buildings, Art. 4(2) (the Response Plan must document "building management and fire safety response measures"); Art. 5 (joint review by land-use, building, and fire authorities; approval may exclude partial or full application of current fire regulations).
+
+This regulation is a framework only — it does not prescribe specific substitute technologies for automatic sprinklers. The specific technical alternative must be proposed case-by-case by the architect/fire engineer based on a site risk analysis, then approved through joint review.
+
+| Measure | Description | Practical Notes |
+|---------|-------------|------------------|
+| Fine water mist system | Suppresses fire with micro-droplets; far less water discharge than standard sprinkler heads, reducing water damage risk to wood structures, murals, and painted decoration | Only ~5 monuments nationwide have installed automatic water mist systems — most owners avoid it over concern for altering the heritage fabric, indicating a high approval bar, not a default choice |
+| Early smoke detection / monitoring | High-sensitivity smoke detectors, CCTV linked to fire dispatch or a management center | Tainan Fire Department pilot at Sacrificial Rites Wu Temple (祀典武廟): existing surveillance equipment networked to back-end dispatch, enabling rapid response during unattended hours — a "compensate for missing suppression via faster response" strategy |
+| Enhanced fire extinguisher provisioning | Higher extinguisher density; extinguisher types suited to wood structures / paper artifacts | Fire extinguishers remain the dominant fire protection measure actually installed at monuments nationwide — the most common, least invasive baseline measure |
+| Fire prevention / self-management plan | Per National Fire Agency's *Guidelines for Strengthening Fire Prevention Self-Management at Monuments and Historic Buildings*: open-flame/electrical management (incense burners, candles, wiring replacement), hot-work control during construction, disaster maps and rescue route diagrams, regular drills | A non-equipment compensatory measure, typically submitted alongside equipment alternatives in the Response Plan to demonstrate overall risk has been reduced to an acceptable level |
+| Other extinguishing systems | Fire Safety Equipment Standards §18 permits water mist, foam, or dry powder systems as alternatives to standard automatic sprinklers | Case-by-case suitability for heritage materials — dry powder/foam can cause secondary contamination, so rarely used in artifact-bearing spaces |
+
+**Drafting priorities**:
+1. **Risk analysis first**: document why the standard sprinkler system is unsuitable (structural material, occupant density, egress paths)
+2. **Propose an equivalent-safety alternative**: the core requirement is not "omit the system" but "achieve an equivalent or acceptable safety level by other means" — this is what review approval hinges on
+3. **Pair with self-management commitments**: equipment substitution alone is rarely sufficient; reviewing fire authorities typically expect it combined with the self-management guideline's routine measures
+
 ## Requirements & Constraints
 - The exemptions are NOT automatic. They are strictly contingent upon the approval of the "Adaptive Reuse Response Plan" (因應計畫) which must prove that alternative measures provide equivalent or acceptable levels of safety.
 - Reference: *Regulations for the Processing of Building Management, Land Use, and Fire Safety for the Restoration or Adaptive Reuse of Monuments, Historic Buildings, Commemorative Buildings, and Groups of Buildings* (古蹟歷史建築紀念建築及聚落建築群修復或再利用建築管理土地使用消防安全處理辦法).
+- Reference: Fire Safety Equipment Standards for Various Premises §18 (alternative extinguishing systems).
+- Reference: National Fire Agency, *Guidelines for Strengthening Fire Prevention Self-Management at Monuments and Historic Buildings* (強化古蹟及歷史建築火災預防自主管理指導綱領).
 
 ## MCP Tool Integration Examples
 ```python
